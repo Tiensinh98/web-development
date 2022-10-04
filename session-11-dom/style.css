@@ -1,0 +1,14 @@
+.click-me-btn:active {
+    color: red;
+    font-size: 32;
+}
+
+.visibility {
+    visibility: hidden;
+}
+
+.huge {
+    font-size: 10rem;
+    color: red;
+    font-weight: bold;
+}

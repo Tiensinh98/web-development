@@ -1,0 +1,29 @@
+/******************** TAG SELECTORS ***************************/
+img {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+img:hover {
+    background-color: gold;
+}
+
+/******************** CLASS SELECTORS ***************************/
+
+.bacon {
+    background-color: green;
+}
+
+.facebook {
+    background-color: blue;
+}
+.circular {
+    border-radius: 100%;
+}
+
+/******************** ID SELECTORS ***************************/
+
+#heading {
+    color: blue;
+}

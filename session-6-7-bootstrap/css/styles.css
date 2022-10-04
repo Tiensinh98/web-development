@@ -1,0 +1,183 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat-Bold";
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.feature-heading {
+    font-size: 3rem;
+}
+/* Container section */
+
+.container-fluid {
+    padding: 7% 15%; 
+}
+
+/* Color section */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.colored-section#testimonials {
+    background-color: #ef8172;
+}
+.colored-section#press {
+    background-color: #ef8172;
+}
+
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Title section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%; /* top lef-right bottom */
+    color: #fff;
+    text-align: left;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 3.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Download buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute; /*abosolute means one item is stacked*/
+    right: 20%;
+}
+
+/* Feature sections */
+
+#features {
+    position: relative; /*relative means one item not is stacked but allow z-index*/
+}
+
+.feature-box {
+    
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials 
+{
+    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press section */
+
+#press 
+{
+    padding-bottom: 3%;
+}
+
+.press-logo 
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Footer section */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+        width: 50%;
+    }
+}
